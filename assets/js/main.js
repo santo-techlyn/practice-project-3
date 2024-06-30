@@ -31,9 +31,6 @@ $('.responsive').slick({
                 slidesToScroll: 1
             }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
     ]
 });
 // slick slider
@@ -69,28 +66,28 @@ $('.responsive2').slick({
                 slidesToScroll: 1
             }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
     ]
 });
 
-
-
 // faq code 
 
-$(document).ready(function(){
+$(document).ready(function () {
     $('.accordion-list > li > .answer').hide();
-      
-    $('.accordion-list > li').click(function() {
-      if ($(this).hasClass("active")) {
-        $(this).removeClass("active").find(".answer").slideUp();
-      } else {
-        $(".accordion-list > li.active .answer").slideUp();
-        $(".accordion-list > li.active").removeClass("active");
-        $(this).addClass("active").find(".answer").slideDown();
-      }
-      return false;
+    $('.accordion-list > li').click(function () {
+        if ($(this).hasClass("active")) {
+            $(this).removeClass("active").find(".answer").slideUp();
+        } else {
+            $(".accordion-list > li.active .answer").slideUp();
+            $(".accordion-list > li.active").removeClass("active");
+            $(this).addClass("active").find(".answer").slideDown();
+        }
+        return false;
     });
-    
-  });
+});
+
+// Youtube Video
+$(".video-youtube").magnificPopup({
+    type: "iframe",
+    removalDelay: 160,
+    preloader: false,
+});

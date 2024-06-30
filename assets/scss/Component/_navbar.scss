@@ -44,16 +44,15 @@ nav {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1199px) {
     nav {
         #navbarNavDropdown {
             .navbar-nav {
-                align-items: baseline;
-            }
+                margin-right: 170px;
 
-            .navbar_btn {
-                position: inherit;
-                padding: 15px;
+                li {
+                    margin-right: 35px;
+                }
             }
         }
     }
@@ -72,15 +71,20 @@ nav {
         }
     }
 }
-@media only screen and (max-width: 1199px) {
+
+
+
+@media only screen and (max-width: 768px) {
     nav {
         #navbarNavDropdown {
             .navbar-nav {
-                margin-right: 170px;
+                align-items: baseline;
+            }
 
-                li {
-                    margin-right: 35px;
-                }
+            .navbar_btn {
+                position: inherit;
+                padding: 15px;
+                margin-top: 13px;
             }
         }
     }

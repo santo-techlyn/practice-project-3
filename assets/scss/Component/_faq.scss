@@ -122,7 +122,7 @@
 
 @media only screen and (max-width: 768px) {
     .faq-section {
-        padding: 200px 0;
+        padding: 200px 0 70px 0;
 
         .faq-title {
             margin-bottom: 20px;
@@ -148,9 +148,17 @@
     }
 }
 
+@media only screen and (max-width: 576px) {
+    .faq-section {
+        padding: 100px 0 50px 0;
+
+        
+    }
+}
+
 @media only screen and (max-width: 425px) {
     .faq-section {
-        padding: 60px 0;
+        padding: 100px 0 50px 0;
 
         .faq-title {
             margin-bottom: 20px;

@@ -52,8 +52,13 @@
                 align-items: center;
                 justify-content: center;
 
-                svg {
-                    color: $whiteColor;
+                .video-youtube {
+                    width: 70%;
+                    margin-top: 5px;
+
+                    svg {
+                        color: $whiteColor;
+                    }
                 }
             }
         }
@@ -166,7 +171,7 @@
 
 @media only screen and (max-width: 1024px) {
     .hero-section {
-        padding-top: 90px;
+        padding-top: 60px;
 
         .hero-contant {
             .hero-contact {
@@ -196,7 +201,7 @@
 
 @media only screen and (max-width: 425px) {
     .hero-section {
-        padding-top: 60px;
+        padding-top: 30px;
 
         .hero-contant {
             text-align: center;
@@ -216,7 +221,7 @@
 
         .hero-img-waraper {
             justify-content: center;
-            margin-top: 50px;
+            margin-top: 15px;
 
             .hero-img {
                 transform: scale(0.7);
@@ -242,6 +247,5 @@
                 }
             }
         }
-
     }
 }

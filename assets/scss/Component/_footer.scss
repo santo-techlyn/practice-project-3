@@ -1,0 +1,209 @@
+.fooder-section {
+    background-color: $MarketingThemeColor;
+    padding: 100px 0;
+
+    .footer-logo-section {
+        padding: 0 55px 0 0;
+
+        p {
+            color: $whiteColor;
+            margin: 28px 0;
+            line-height: 30px;
+        }
+
+        .logo-icon {
+            svg {
+                margin-right: 40px;
+            }
+        }
+    }
+
+    .fooder-section2 {
+        color: $whiteColor;
+        padding: 0 74px 0 0;
+        font-size: 16px;
+        font-weight: 600;
+
+        h6:first-child {
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        p:first-child {
+            margin-bottom: 20px;
+            line-height: 30px;
+        }
+
+        p:last-child {
+            margin-bottom: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .fooder-section3 {
+        color: $whiteColor;
+        text-align: start;
+
+        h6 {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 0;
+
+            a {
+                text-decoration: none;
+                color: $whiteColor;
+
+                li {
+                    list-style: none;
+                    margin-bottom: 10px;
+
+                }
+            }
+
+
+        }
+    }
+
+    .fooder-section4 {
+        color: $whiteColor;
+        padding: 0 50px 0 0;
+
+        p:last-child {
+            margin: 10px 0 0 0;
+        }
+
+        .mail {
+            margin: 20px 0;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .fooder-section {
+        .footer-logo-section {
+            padding: 0 15px 0 0;
+
+            p {
+                margin: 8px 0;
+            }
+
+            .logo-icon {
+                svg {
+                    margin-right: 25px;
+                }
+            }
+        }
+
+        .fooder-section2 {
+            padding: 0 0 0 0;
+
+        }
+
+        .fooder-section4 {
+            padding: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fooder-section {
+        
+        .footer-logo-section {
+            padding: 0 15px 0 0;
+
+            img {
+                width: 100px;
+            }
+
+            p {
+                margin: 20px 0;
+                line-height: 22px;
+            }
+
+            .logo-icon {
+                svg {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .fooder-section4 {
+            .mail {
+                margin: 0px 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .fooder-section {
+        .footer-logo-section {
+            padding: 0 126px 0 0;
+            img{
+                width: 120px;
+            }
+            p{
+                margin: 10px 0;
+            }
+            .logo-icon {
+                svg {
+                    margin-right: 26px;
+                }
+            }
+        }
+
+        .fooder-section2 {
+            margin-top: 50px;
+            padding: 0 126px 0 0;
+        }
+
+        .fooder-section3 {
+            margin-top: 50px;
+            padding: 0 126px 0 0;
+        }
+
+        .fooder-section4 {
+            margin-top: 50px;
+            padding: 0 126px 0 0;
+        }
+    }
+
+}
+@media only screen and (max-width: 425px) {
+    .fooder-section {
+        .footer-logo-section {
+            padding: 0 126px 0 0;
+            img{
+                width: 120px;
+            }
+            p{
+                margin: 10px 0;
+            }
+            .logo-icon {
+                svg {
+                    margin-right: 26px;
+                }
+            }
+        }
+
+        .fooder-section2 {
+            margin-top: 50px;
+            padding: 0 126px 0 0;
+        }
+
+        .fooder-section3 {
+            margin-top: 50px;
+            padding: 0 126px 0 0;
+        }
+
+        .fooder-section4 {
+            margin-top: 50px;
+            padding: 0 126px 0 0;
+        }
+    }
+
+}

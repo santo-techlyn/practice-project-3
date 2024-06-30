@@ -34,13 +34,12 @@ nav #navbarNavDropdown .navbar_btn p {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1199px) {
   nav #navbarNavDropdown .navbar-nav {
-    align-items: baseline;
+    margin-right: 170px;
   }
-  nav #navbarNavDropdown .navbar_btn {
-    position: inherit;
-    padding: 15px;
+  nav #navbarNavDropdown .navbar-nav li {
+    margin-right: 35px;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -51,12 +50,14 @@ nav #navbarNavDropdown .navbar_btn p {
     margin-right: 35px;
   }
 }
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 768px) {
   nav #navbarNavDropdown .navbar-nav {
-    margin-right: 170px;
+    align-items: baseline;
   }
-  nav #navbarNavDropdown .navbar-nav li {
-    margin-right: 35px;
+  nav #navbarNavDropdown .navbar_btn {
+    position: inherit;
+    padding: 15px;
+    margin-top: 13px;
   }
 }
 .hero-section {
@@ -103,7 +104,11 @@ nav #navbarNavDropdown .navbar_btn p {
   align-items: center;
   justify-content: center;
 }
-.hero-section .hero-contant .hero-contact .video svg {
+.hero-section .hero-contant .hero-contact .video .video-youtube {
+  width: 70%;
+  margin-top: 5px;
+}
+.hero-section .hero-contant .hero-contact .video .video-youtube svg {
   color: #ffffff;
 }
 .hero-section .hero-img-waraper {
@@ -191,7 +196,7 @@ nav #navbarNavDropdown .navbar_btn p {
 
 @media only screen and (max-width: 1024px) {
   .hero-section {
-    padding-top: 90px;
+    padding-top: 60px;
   }
   .hero-section .hero-contant .hero-contact {
     margin-right: 0px;
@@ -211,7 +216,7 @@ nav #navbarNavDropdown .navbar_btn p {
 }
 @media only screen and (max-width: 425px) {
   .hero-section {
-    padding-top: 60px;
+    padding-top: 30px;
   }
   .hero-section .hero-contant {
     text-align: center;
@@ -227,7 +232,7 @@ nav #navbarNavDropdown .navbar_btn p {
   }
   .hero-section .hero-img-waraper {
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 15px;
   }
   .hero-section .hero-img-waraper .hero-img {
     transform: scale(0.7);
@@ -474,9 +479,9 @@ nav #navbarNavDropdown .navbar_btn p {
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 576px) {
   .expreance-section {
-    padding: 0px 0;
+    padding: 79px 0 35px 0;
   }
   .expreance-section .expreance-text h3 {
     font-size: 34px;
@@ -485,8 +490,30 @@ nav #navbarNavDropdown .navbar_btn p {
   .expreance-section .expreance-title {
     margin-bottom: 33px;
   }
+  .expreance-section .botm-left h4 {
+    font-size: 18px;
+  }
   .expreance-section .botm-right {
-    padding: 30px 0;
+    padding: 20px 0;
+  }
+  .expreance-section .botm-right .p1st {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .expreance-section {
+    padding: 0px 0;
+  }
+  .expreance-section .expreance-text h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  .expreance-section .expreance-title {
+    margin-bottom: 33px;
+  }
+  .expreance-section .botm-right {
+    padding: 20px 0;
   }
 }
 .touch-section {
@@ -596,6 +623,26 @@ nav #navbarNavDropdown .navbar_btn p {
   .touch-section .tastimonial-wraper .main-text {
     font-size: 20px;
     font-weight: 500;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .touch-section img {
+    height: 965px;
+  }
+  .touch-section .tastimonial-wraper {
+    margin-top: 0px;
+    padding: 61px 66px 40px 71px;
+  }
+  .touch-section .tastimonial-wraper .main-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .touch-section .touch-right-side {
+    margin-top: 30px;
+  }
+  .touch-section .touch-right-side form input {
+    margin-bottom: 30px;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -715,7 +762,7 @@ nav #navbarNavDropdown .navbar_btn p {
 }
 @media only screen and (max-width: 768px) {
   .faq-section {
-    padding: 200px 0;
+    padding: 200px 0 70px 0;
   }
   .faq-section .faq-title {
     margin-bottom: 20px;
@@ -731,9 +778,14 @@ nav #navbarNavDropdown .navbar_btn p {
     padding-right: 10px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .faq-section {
+    padding: 100px 0 50px 0;
+  }
+}
 @media only screen and (max-width: 425px) {
   .faq-section {
-    padding: 60px 0;
+    padding: 100px 0 50px 0;
   }
   .faq-section .faq-title {
     margin-bottom: 20px;
@@ -749,6 +801,9 @@ nav #navbarNavDropdown .navbar_btn p {
     padding-right: 22px;
   }
 }
+.latest-section {
+  padding: 0px 0 135px 0;
+}
 .latest-section .latest-title {
   text-align: center;
   font-family: "Tangerine", cursive;
@@ -759,7 +814,9 @@ nav #navbarNavDropdown .navbar_btn p {
   margin-bottom: -20px;
 }
 .latest-section .card {
+  width: 95%;
   border: 0;
+  border-radius: 0;
   background-color: #ffffff;
   box-shadow: 0.1px 1px 14px -7px;
 }
@@ -774,6 +831,9 @@ nav #navbarNavDropdown .navbar_btn p {
   bottom: -26px;
   left: 0;
   border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
 }
 .latest-section .card .card-body {
   margin-top: 23px;
@@ -798,7 +858,231 @@ nav #navbarNavDropdown .navbar_btn p {
   color: #E85442;
   text-decoration: none;
 }
+.latest-section .card .card-body .read-more:hover {
+  text-decoration: underline;
+  transition: all 0.3ms ease;
+}
 
+@media only screen and (max-width: 1440px) {
+  .latest-section {
+    padding: 0px 0 135px 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .latest-section {
+    padding: 0px 0 135px 0;
+  }
+  .latest-section .card {
+    width: 95%;
+  }
+  .latest-section .card .card-body {
+    margin-top: 23px;
+  }
+  .latest-section .card .card-body .card-date p {
+    margin: 10px 0;
+  }
+  .latest-section .card .card-body .card-text {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .latest-section {
+    padding: 0px 0 20px 0;
+  }
+  .latest-section .card {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .latest-section .card .card-body {
+    margin-top: 23px;
+  }
+  .latest-section .card .card-body .card-date p {
+    margin: 22px 0;
+  }
+  .latest-section .card .card-body .card-text {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .latest-section {
+    padding: 0px 0 35px 0;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .latest-section {
+    padding: 0px 0 20px 0;
+  }
+  .latest-section .latest-title {
+    padding-bottom: 33px;
+  }
+  .latest-section .latest-title h1 {
+    margin-bottom: -15px;
+    font-size: 55PX;
+  }
+  .latest-section .card {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .latest-section .card .card-body {
+    margin-top: 23px;
+  }
+  .latest-section .card .card-body .card-date p {
+    margin: 22px 0;
+  }
+  .latest-section .card .card-body .card-text {
+    margin-bottom: 20px;
+  }
+}
+.fooder-section {
+  background-color: #E85442;
+  padding: 100px 0;
+}
+.fooder-section .footer-logo-section {
+  padding: 0 55px 0 0;
+}
+.fooder-section .footer-logo-section p {
+  color: #ffffff;
+  margin: 28px 0;
+  line-height: 30px;
+}
+.fooder-section .footer-logo-section .logo-icon svg {
+  margin-right: 40px;
+}
+.fooder-section .fooder-section2 {
+  color: #ffffff;
+  padding: 0 74px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.fooder-section .fooder-section2 h6:first-child {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.fooder-section .fooder-section2 p:first-child {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.fooder-section .fooder-section2 p:last-child {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.fooder-section .fooder-section3 {
+  color: #ffffff;
+  text-align: start;
+}
+.fooder-section .fooder-section3 h6 {
+  margin-bottom: 15px;
+}
+.fooder-section .fooder-section3 ul {
+  padding-left: 0;
+}
+.fooder-section .fooder-section3 ul a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.fooder-section .fooder-section3 ul a li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.fooder-section .fooder-section4 {
+  color: #ffffff;
+  padding: 0 50px 0 0;
+}
+.fooder-section .fooder-section4 p:last-child {
+  margin: 10px 0 0 0;
+}
+.fooder-section .fooder-section4 .mail {
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .fooder-section .footer-logo-section {
+    padding: 0 15px 0 0;
+  }
+  .fooder-section .footer-logo-section p {
+    margin: 8px 0;
+  }
+  .fooder-section .footer-logo-section .logo-icon svg {
+    margin-right: 25px;
+  }
+  .fooder-section .fooder-section2 {
+    padding: 0 0 0 0;
+  }
+  .fooder-section .fooder-section4 {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fooder-section .footer-logo-section {
+    padding: 0 15px 0 0;
+  }
+  .fooder-section .footer-logo-section img {
+    width: 100px;
+  }
+  .fooder-section .footer-logo-section p {
+    margin: 20px 0;
+    line-height: 22px;
+  }
+  .fooder-section .footer-logo-section .logo-icon svg {
+    margin-right: 5px;
+  }
+  .fooder-section .fooder-section4 .mail {
+    margin: 0px 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .fooder-section .footer-logo-section {
+    padding: 0 126px 0 0;
+  }
+  .fooder-section .footer-logo-section img {
+    width: 120px;
+  }
+  .fooder-section .footer-logo-section p {
+    margin: 10px 0;
+  }
+  .fooder-section .footer-logo-section .logo-icon svg {
+    margin-right: 26px;
+  }
+  .fooder-section .fooder-section2 {
+    margin-top: 50px;
+    padding: 0 126px 0 0;
+  }
+  .fooder-section .fooder-section3 {
+    margin-top: 50px;
+    padding: 0 126px 0 0;
+  }
+  .fooder-section .fooder-section4 {
+    margin-top: 50px;
+    padding: 0 126px 0 0;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .fooder-section .footer-logo-section {
+    padding: 0 126px 0 0;
+  }
+  .fooder-section .footer-logo-section img {
+    width: 120px;
+  }
+  .fooder-section .footer-logo-section p {
+    margin: 10px 0;
+  }
+  .fooder-section .footer-logo-section .logo-icon svg {
+    margin-right: 26px;
+  }
+  .fooder-section .fooder-section2 {
+    margin-top: 50px;
+    padding: 0 126px 0 0;
+  }
+  .fooder-section .fooder-section3 {
+    margin-top: 50px;
+    padding: 0 126px 0 0;
+  }
+  .fooder-section .fooder-section4 {
+    margin-top: 50px;
+    padding: 0 126px 0 0;
+  }
+}
 * {
   margin: 0;
   padding: 0;
