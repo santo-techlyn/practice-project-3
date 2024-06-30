@@ -1,0 +1,58 @@
+.latest-section {
+//   background-color: $whiteColorShadow;
+    .latest-title {
+        text-align: center;
+        font-family: "Tangerine", cursive;
+        padding-bottom: 65px;
+        color: $MarketingThemeColor;
+
+        h1 {
+            margin-bottom: -20px;
+        }
+    }
+
+    .card {
+        border: 0;
+        background-color: $whiteColor;
+        box-shadow: 0.1px 1px 14px -7px ;
+        .card-head {
+            position: relative;
+
+            .card-btn {
+                height: 60px;
+                width: 170px;
+                background-color: $MarketingThemeColor;
+                position: absolute;
+                bottom: -26px;
+                left: 0;
+                border: 0;
+            }
+        }
+
+        .card-body {
+            margin-top: 23px;
+
+            .title-link {
+                text-decoration: none;
+            }
+
+            .card-title {
+                color: $MarketingTextColor;
+                &:hover{
+                    color: $MarketingThemeColor;
+                }
+            }
+            .card-date{
+                color: $MarketingThemeColor;
+                text-decoration: none;
+                p{
+                    margin: 20px 0;
+                }
+            }
+            .read-more{
+                color: $MarketingThemeColor;
+                text-decoration: none;
+            }
+        }
+    }
+}

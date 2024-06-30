@@ -1,0 +1,177 @@
+.faq-section {
+    padding: 135px 0;
+
+    .faq-title {
+        text-align: center;
+        font-family: "Tangerine", cursive;
+        color: $MarketingThemeColor;
+        margin-bottom: 65px;
+
+        h1 {
+            margin-bottom: -33px;
+        }
+    }
+
+    .test {
+        ul.accordion-list {
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            padding: 20px;
+            margin: 0;
+            list-style: none;
+            // background-color: #f9f9fA;
+
+            li {
+                position: relative;
+                display: block;
+                width: 100%;
+                height: auto;
+                padding: 20px;
+                margin: 0 auto 15px auto;
+                border-bottom: 1px solid $MarketingTextColor;
+                border-radius: 5px;
+                cursor: pointer;
+
+                &.active {
+                    h3 {
+                        svg {
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+
+                h3 {
+                    font-weight: 700;
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    padding: 0 0 0 0;
+                    margin: 0;
+                    font-size: 15px;
+                    letter-spacing: 0.01em;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $MarketingThemeColor;
+                    }
+
+                    svg {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        transition: all 0.3s ease-in-out;
+                        font-size: 18px;
+                    }
+                }
+
+                div.answer {
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    margin: 0;
+                    padding: 0;
+                    cursor: pointer;
+
+                    p {
+                        position: relative;
+                        display: block;
+                        font-weight: 300;
+                        padding: 10px 0 0 0;
+                        cursor: pointer;
+                        line-height: 150%;
+                        margin: 0 0 15px 0;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .faq-section {
+        padding: 200px 0;
+
+        .faq-title {
+            margin-bottom: 20px;
+            h1 {
+                font-size: 66px;
+                line-height: 66px;
+            }
+
+            svg {
+                margin-top: 40px;
+            }
+        }
+
+        .test {
+            ul.accordion-list {
+                li{
+                    h3{
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .faq-section {
+        padding: 200px 0;
+
+        .faq-title {
+            margin-bottom: 20px;
+            h1 {
+                font-size: 66px;
+                line-height: 66px;
+            }
+
+            svg {
+                margin-top: 40px;
+            }
+        }
+
+        .test {
+            ul.accordion-list {
+                li{
+                    h3{
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .faq-section {
+        padding: 60px 0;
+
+        .faq-title {
+            margin-bottom: 20px;
+            h1 {
+                font-size: 66px;
+                line-height: 66px;
+            }
+
+            svg {
+                margin-top: 40px;
+            }
+        }
+
+        .test {
+            ul.accordion-list {
+                li{
+                    h3{
+                        padding-right: 22px;
+                    }
+                }
+            }
+        }
+    }
+}

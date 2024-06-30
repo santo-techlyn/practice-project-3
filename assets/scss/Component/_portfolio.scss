@@ -1,0 +1,77 @@
+.Portfolio-section {
+    
+    .Portfolio-title {
+        text-align: center;
+        font-family: "Tangerine", cursive;
+        color: $MarketingThemeColor;
+        margin-bottom: 50px;
+        h1{
+            margin-bottom: -30px;
+        }
+
+    }
+
+    .main-text {
+        h1 {
+            color: transparent;
+            -webkit-text-stroke: 1px $MarketingTextColor;
+
+            span {
+                -webkit-text-stroke: 0px white;
+                color: $MarketingThemeColor;
+                font-size: 80px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .col-md-11 {
+        position: relative;
+    }
+
+    .portfolio-slider {
+        background-color: $MarketingThemeColor;
+        height: 477px;
+        margin-top: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 28px;
+
+        .images {
+            height: 360px;
+            width: 270px;
+            margin-left: 23px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Portfolio-section {
+        padding: 0px 0;
+        .main-text {
+            h1 {
+                font-size: 50px;
+                span{
+                    font-size: 50px
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 425px) {
+    .Portfolio-section {
+        padding: 75px 0;
+        .main-text {
+            h1 {
+                font-size: 35px;
+                span{
+                    font-size: 35px
+                }
+            }
+        }
+        .Portfolio-title {
+            margin-bottom: 35px;
+        }
+    }
+}

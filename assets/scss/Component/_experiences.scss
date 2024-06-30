@@ -1,0 +1,98 @@
+.expreance-section {
+    padding: 135px 0;
+
+    .expreance-title {
+        text-align: center;
+        font-family: "Tangerine", cursive;
+        color: $MarketingThemeColor;
+        margin-bottom: 65px;
+        h1{
+            margin-bottom: -30px;
+        }
+    }
+
+    .expreance-text {
+        font-family: "Poppins", sans-serif;
+    }
+
+    .top-img {
+        width: 100%;
+        margin-bottom: 43px;
+    }
+
+    .botm-right {
+        border-top: 1px solid $MarketingTextColor;
+        padding: 40px 0;
+        a{
+            text-decoration: none;
+        }
+        .p1st {
+            color: $MarketingThemeColor;
+        }
+
+        h5 {
+            margin: 20px 0;
+        }
+    }
+
+    .botm-left {
+        color: $MarketingThemeColor;
+    }
+
+}
+
+@media only screen and (max-width: 1025px) {
+    .expreance-section {
+        .botm-left {
+            h4 {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .expreance-section {
+        .botm-left {
+            h4 {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .expreance-section {
+        .expreance-text {
+            h3 {
+                font-size: 24px;
+            }
+        }
+
+        .botm-left {
+            h4 {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .expreance-section {
+        padding: 0px 0;
+
+        .expreance-text {
+            h3 {
+                font-size: 34px;
+                margin-bottom: 40px;
+            }
+        }
+
+        .expreance-title {
+            margin-bottom: 33px;
+        }
+        .botm-right {
+            padding: 30px 0;
+        }
+    }
+}

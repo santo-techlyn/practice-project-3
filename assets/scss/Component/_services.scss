@@ -1,0 +1,130 @@
+.services-seection {
+    padding: 135px 0;
+
+    .services-title {
+        text-align: center;
+        font-family: "Tangerine", cursive;
+        padding-bottom: 65px;
+        color: $MarketingThemeColor;
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: -20px;
+
+        }
+
+        svg {
+            vertical-align: top;
+        }
+    }
+
+    .services-item {
+        height: 600px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Poppins", sans-serif;
+
+        .div {
+            height: 200px;
+            width: 200px;
+            background-color: $MarketingParagraphColorOpacity;
+            transform: rotate(45deg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .box-contant {
+                transform: rotate(314deg);
+                text-align: center;
+
+                p {
+                    line-height: 30px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-top: 11px;
+                }
+            }
+        }
+
+        .box1st {
+            display: flex;
+            gap: 96px;
+        }
+
+        .box2nd {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 105px;
+        }
+    }
+
+    .services-content {
+        font-family: "Poppins", sans-serif;
+
+        h4 {
+            margin-bottom: 20px;
+        }
+
+        .content1 {
+            display: flex;
+            gap: 18px;
+            margin-top: 47px;
+
+            .circle {
+                height: 35px;
+                width: 35px;
+                border-radius: 50%;
+                background-color: $backgorundColor;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .services-seection {
+        padding: 135px 0;
+
+        .services-item {
+            height: 600px;
+            transform: scale(0.8);
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .services-seection {
+        padding: 35px 0px 100px 0px;
+
+        .services-title {
+            padding-bottom: 0px;
+        }
+
+        .services-item {
+            height: 600px;
+            transform: scale(0.8);
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .services-seection {
+        padding: 0px 0;
+
+        .services-title {
+            padding-bottom: 0px;
+        }
+
+        .services-item {
+            height: 430px;
+            transform: scale(0.6);
+        }
+    }
+}
