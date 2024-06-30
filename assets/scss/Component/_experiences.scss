@@ -6,7 +6,8 @@
         font-family: "Tangerine", cursive;
         color: $MarketingThemeColor;
         margin-bottom: 65px;
-        h1{
+
+        h1 {
             margin-bottom: -30px;
         }
     }
@@ -21,11 +22,14 @@
     }
 
     .botm-right {
+        font-family: "Poppins", sans-serif;
         border-top: 1px solid $MarketingTextColor;
         padding: 40px 0;
-        a{
+
+        a {
             text-decoration: none;
         }
+
         .p1st {
             color: $MarketingThemeColor;
         }
@@ -36,7 +40,11 @@
     }
 
     .botm-left {
+        font-family: "Poppins", sans-serif;
         color: $MarketingThemeColor;
+        h4{
+            font-size: 26px;
+        }
     }
 
 }
@@ -45,7 +53,7 @@
     .expreance-section {
         .botm-left {
             h4 {
-                font-size: 20px;
+                font-size: 19px;
             }
         }
     }
@@ -80,6 +88,7 @@
 @media only screen and (max-width: 576px) {
     .expreance-section {
         padding: 79px 0 35px 0;
+
         .expreance-text {
             h3 {
                 font-size: 34px;
@@ -90,20 +99,24 @@
         .expreance-title {
             margin-bottom: 33px;
         }
+
         .botm-left {
-           h4{
-            font-size: 18px;
-           }
+            h4 {
+                font-size: 18px;
+            }
         }
+
         .botm-right {
             padding: 20px 0;
-            .p1st{
+
+            .p1st {
                 font-size: 18px;
                 font-weight: 600;
             }
         }
     }
 }
+
 @media only screen and (max-width: 425px) {
     .expreance-section {
         padding: 0px 0;
@@ -118,6 +131,7 @@
         .expreance-title {
             margin-bottom: 33px;
         }
+
         .botm-right {
             padding: 20px 0;
         }

@@ -1,6 +1,7 @@
 .fooder-section {
     background-color: $MarketingThemeColor;
     padding: 100px 0;
+    font-family: "Poppins", sans-serif;
 
     .footer-logo-section {
         padding: 0 55px 0 0;
@@ -111,7 +112,7 @@
 
 @media only screen and (max-width: 768px) {
     .fooder-section {
-        
+
         .footer-logo-section {
             padding: 0 15px 0 0;
 

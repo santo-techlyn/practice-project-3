@@ -373,6 +373,7 @@ nav #navbarNavDropdown .navbar_btn p {
   margin-bottom: -30px;
 }
 .Portfolio-section .main-text h1 {
+  font-family: "Poppins", sans-serif;
   color: transparent;
   -webkit-text-stroke: 1px #112200;
 }
@@ -445,6 +446,7 @@ nav #navbarNavDropdown .navbar_btn p {
   margin-bottom: 43px;
 }
 .expreance-section .botm-right {
+  font-family: "Poppins", sans-serif;
   border-top: 1px solid #112200;
   padding: 40px 0;
 }
@@ -458,12 +460,16 @@ nav #navbarNavDropdown .navbar_btn p {
   margin: 20px 0;
 }
 .expreance-section .botm-left {
+  font-family: "Poppins", sans-serif;
   color: #E85442;
+}
+.expreance-section .botm-left h4 {
+  font-size: 26px;
 }
 
 @media only screen and (max-width: 1025px) {
   .expreance-section .botm-left h4 {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -519,6 +525,7 @@ nav #navbarNavDropdown .navbar_btn p {
 .touch-section {
   position: relative;
   margin: 135px 0;
+  font-family: "Poppins", sans-serif;
 }
 .touch-section img {
   position: absolute;
@@ -677,6 +684,9 @@ nav #navbarNavDropdown .navbar_btn p {
 .faq-section .faq-title h1 {
   margin-bottom: -33px;
 }
+.faq-section .test {
+  font-family: "Poppins", sans-serif;
+}
 .faq-section .test ul.accordion-list {
   position: relative;
   display: block;
@@ -814,6 +824,7 @@ nav #navbarNavDropdown .navbar_btn p {
   margin-bottom: -20px;
 }
 .latest-section .card {
+  font-family: "Poppins", sans-serif;
   width: 95%;
   border: 0;
   border-radius: 0;
@@ -936,6 +947,7 @@ nav #navbarNavDropdown .navbar_btn p {
 .fooder-section {
   background-color: #E85442;
   padding: 100px 0;
+  font-family: "Poppins", sans-serif;
 }
 .fooder-section .footer-logo-section {
   padding: 0 55px 0 0;
